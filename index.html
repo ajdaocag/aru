@@ -3,64 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Yogini Aru - Traditional Yoga & Wellness</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Online and offline yoga classes for fitness, weight loss, stress relief and meditation.">
+    <meta name="description"
+        content="Transform your mind, body, and spirit with personalized yoga sessions. Join our welcoming community and discover inner peace through mindful practice.">
+    <title>Yogini Aru - Traditional Yoga & Wellness</title>
 
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
-    <style>
-        /* Hero Background */
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            background: linear-gradient(135deg, #d4fcf0, #e0f7fa, #f1f8e9, #fffde7);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .hero-title {
-            font-size: 3.2rem;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .hero-subtitle {
-            max-width: 520px;
-            margin: 20px 0;
-            font-size: 1.2rem;
-        }
-
-        .floating-card {
-            background: #fff;
-            padding: 15px 25px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            margin: 15px;
-        }
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- Navigation -->
 <nav class="navbar" id="navbar">
     <div class="container nav-container">
         <div class="logo">
-            <span>🧘 Yogini Aru</span>
+            <span class="logo-icon">🧘</span>
+            <span class="logo-text">Yogini Aru</span>
         </div>
-
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -70,160 +36,195 @@
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <a href="https://wa.me/918864976368" class="cta-button" target="_blank">
-            Book a Session
-        </a>
+        <button class="cta-button">Book a Session</button>
     </div>
 </nav>
 
-<!-- HERO SECTION -->
+<!-- Hero Section - FROM DOCUMENT 2 -->
 <section class="hero" id="home">
+    <div class="hero-background"></div>
+    <div class="breathing-circle"></div>
     <div class="container hero-content">
         <div class="hero-text">
-            <h1 class="hero-title">
-                Find Your Inner <span class="gradient-text">Balance</span>
-            </h1>
-
-            <p class="hero-subtitle">
-                Transform your mind, body, and spirit through the ancient practice of yoga.
-                Join our online & offline classes and begin your wellness journey today.
-            </p>
-
+            <h1 class="hero-title">Find Your Inner <span class="gradient-text">Balance</span></h1>
+            <p class="hero-subtitle">Transform your mind, body, and spirit through the ancient practice of yoga.
+                Begin your journey to wellness today.</p>
             <div class="hero-buttons">
-                <a href="#classes" class="primary-button">Explore Classes</a>
-                <a href="https://wa.me/918864976368" class="secondary-button" target="_blank">
-                    Book on WhatsApp
-                </a>
+                <button class="primary-button">Start Your Journey</button>
+                <button class="secondary-button">Explore Classes</button>
             </div>
         </div>
-
         <div class="hero-image">
-            <div class="floating-card">
-                🌸 500+ Happy Students
+            <div class="floating-card card-1">
+                <span class="card-icon">🌸</span>
+                <p>500+ Happy Students</p>
             </div>
-
-            <div class="floating-card">
-                ⭐ 10+ Years Experience
+            <div class="floating-card card-2">
+                <span class="card-icon">⭐</span>
+                <p>10 Years Experience</p>
             </div>
-
-            <div class="floating-card">
-                🏆 Certified Yoga Trainer
+            <div class="floating-card card-3">
+                <span class="card-icon">🏆</span>
+                <p>Certified Yogini</p>
             </div>
         </div>
     </div>
+    <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+    </div>
 </section>
 
-<!-- ABOUT -->
+<!-- About Section -->
 <section class="about" id="about">
     <div class="container">
-        <h2>About Yogini Aru</h2>
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Your Guide to <span class="gradient-text">Wellness</span></h2>
+        </div>
+
         <div class="about-content">
-            <img src="photo5.jpg" class="about-image">
-            <div>
-                <p>Certified yoga trainer with 10+ years experience in traditional yoga, therapy yoga, meditation and pranayama.</p>
-                <p>Helping students improve health, reduce stress and live a balanced life.</p>
+            <div class="about-image-wrapper">
+                <img src="photo5.jpg" alt="Yogini Aru" class="about-image">
+            </div>
+
+            <div class="about-text">
+                <h3>Namaste, I'm Yogini Aru</h3>
+                <p class="about-intro">
+                    A certified yoga instructor passionate about helping others discover the
+                    transformative power of mindful movement.
+                </p>
+                <p>
+                    My journey with yoga began over a decade ago during a challenging period in my life.
+                    What started as a search for stress relief became a profound path to self-discovery and healing.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CLASSES -->
+<!-- CLASSES SECTION -->
 <section class="classes" id="classes">
     <div class="container">
-        <h2>Yoga Class Schedule</h2>
 
-        <h3>🌅 Morning (7–11 AM)</h3>
-        <div class="classes-grid">
-            <div class="class-card">7–8 AM : Hatha Yoga</div>
-            <div class="class-card">8–9 AM : Vinyasa Flow</div>
-            <div class="class-card">9–10 AM : Power Yoga</div>
-            <div class="class-card">10–11 AM : Therapy Yoga</div>
+        <div class="section-header">
+            <span class="section-tag">Our Classes</span>
+            <h2 class="section-title">Yoga Class Schedule</h2>
+            <p class="section-description">
+                Offline studio classes + live online yoga sessions
+            </p>
         </div>
 
-        <h3>🌇 Evening</h3>
+        <h3 style="text-align:center;">🌅 Morning Batches (7:00 – 11:00 AM)</h3>
+
         <div class="classes-grid">
-            <div class="class-card">5:30–6:30 PM : Hatha + Pranayama</div>
-            <div class="class-card">6:30–7:30 PM : Weight Loss Yoga</div>
-            <div class="class-card">7:30–8:30 PM : Meditation</div>
+            <div class="class-card">
+                <h3>7:00 – 8:00 AM</h3>
+                <p><b>Hatha Yoga</b></p>
+                <p>Beginners & seniors</p>
+            </div>
+
+            <div class="class-card">
+                <h3>8:00 – 9:00 AM</h3>
+                <p><b>Vinyasa Flow</b></p>
+                <p>Weight loss & stamina</p>
+            </div>
+
+            <div class="class-card">
+                <h3>9:00 – 10:00 AM</h3>
+                <p><b>Power Yoga</b></p>
+                <p>Strength & fitness</p>
+            </div>
+
+            <div class="class-card">
+                <h3>10:00 – 11:00 AM</h3>
+                <p><b>Therapy Yoga</b></p>
+                <p>Back pain & BP</p>
+            </div>
         </div>
 
-        <h3>💻 Online Classes</h3>
+        <h3 style="text-align:center;margin-top:60px;">🌇 Evening Batches</h3>
+
         <div class="classes-grid">
-            <div class="class-card">6–7 AM : Online Morning Batch</div>
-            <div class="class-card">7–8 PM : Online Evening Batch</div>
-            <div class="class-card">Personal Online Training</div>
+            <div class="class-card">
+                <h3>5:30 – 6:30 PM</h3>
+                <p><b>Hatha + Pranayama</b></p>
+                <p>Office stress relief</p>
+            </div>
+
+            <div class="class-card">
+                <h3>6:30 – 7:30 PM</h3>
+                <p><b>Weight Loss Yoga</b></p>
+                <p>Fat burn</p>
+            </div>
+
+            <div class="class-card">
+                <h3>7:30 – 8:30 PM</h3>
+                <p><b>Meditation</b></p>
+                <p>Mental peace</p>
+            </div>
         </div>
 
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
-            Book Free Trial
-        </a>
+        <h3 style="text-align:center;margin-top:60px;">💻 Online Yoga Classes (Zoom)</h3>
+
+        <div class="classes-grid">
+            <div class="class-card featured">
+                <h3>Morning Online</h3>
+                <p>6:00 – 7:00 AM</p>
+                <p>Live Zoom + recording</p>
+            </div>
+
+            <div class="class-card">
+                <h3>Evening Online</h3>
+                <p>7:00 – 8:00 PM</p>
+                <p>Working professionals</p>
+            </div>
+
+            <div class="class-card">
+                <h3>Personal Online</h3>
+                <p>1-to-1 Training</p>
+                <p>Flexible timing</p>
+            </div>
+        </div>
+
+        <div style="text-align:center;margin-top:50px;">
+            <h3>💰 Fees</h3>
+            <p>Offline Classes: ₹2,000/month</p>
+            <p>Online Classes: ₹1,500/month</p>
+            <p>Personal Training: ₹6,000/month</p>
+
+            <a href="https://wa.me/918864976368" class="primary-button">
+                Book Free Trial
+            </a>
+        </div>
+
     </div>
 </section>
 
-<!-- BENEFITS -->
-<section class="benefits" id="benefits">
-    <div class="container">
-        <h2>Benefits of Yoga</h2>
-        <div class="benefits-grid">
-            <div>🧘 Improves flexibility</div>
-            <div>💪 Builds strength</div>
-            <div>😌 Reduces stress</div>
-            <div>🔥 Weight loss</div>
-            <div>🧠 Better sleep</div>
-            <div>❤️ Heart health</div>
-        </div>
-    </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials" id="testimonials">
-    <div class="container">
-        <h2>Student Testimonials</h2>
-
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐
-                <p>Best yoga teacher in Jagadhri. My back pain is gone.</p>
-                <b>Priya Sharma</b>
-            </div>
-
-            <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐
-                <p>I lost 12 kg in 6 months with her yoga guidance.</p>
-                <b>Anjali Gupta</b>
-            </div>
-
-            <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐
-                <p>Very peaceful meditation classes.</p>
-                <b>Rahul Verma</b>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- GALLERY -->
+<!-- Gallery Section -->
 <section class="gallery" id="gallery">
-    <div class="container gallery-grid">
-        <img src="photo1.jpg">
-        <img src="photo2.jpg">
-        <img src="photo3.jpg">
-        <img src="photo4.jpg">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Gallery</span>
+            <h2 class="section-title">Yoga Moments</h2>
+        </div>
+
+        <div class="gallery-grid">
+            <img src="photo1.jpg">
+            <img src="photo2.jpg">
+            <img src="photo3.jpg">
+            <img src="photo4.jpg">
+        </div>
     </div>
 </section>
 
-<!-- CONTACT -->
+<!-- Contact Section -->
 <section class="contact" id="contact">
     <div class="container">
         <h2>Contact</h2>
         <p>📞 +91 88649 76368</p>
         <p>📧 namaste@yoginiaru.com</p>
-        <p>📍 Jagadhri, Haryana</p>
-
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
-            Chat on WhatsApp
-        </a>
+        <p>📍 Sector 18, Jagadhri, Haryana</p>
     </div>
 </section>
 
