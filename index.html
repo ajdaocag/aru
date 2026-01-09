@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Yogini Aru - Yoga & Wellness</title>
+    <title>Yogini Aru - Traditional Yoga & Wellness</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Online and offline yoga classes for fitness, weight loss, stress relief and meditation.">
 
@@ -11,6 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
     <style>
@@ -19,9 +20,35 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg,#d4fcf0,#e0f7fa,#f1f8e9,#fffde7);
+            background: linear-gradient(135deg, #d4fcf0, #e0f7fa, #f1f8e9, #fffde7);
+            position: relative;
+            overflow: hidden;
         }
-        .hero-content { max-width: 600px; }
+
+        .hero-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero-title {
+            font-size: 3.2rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-subtitle {
+            max-width: 520px;
+            margin: 20px 0;
+            font-size: 1.2rem;
+        }
+
+        .floating-card {
+            background: #fff;
+            padding: 15px 25px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin: 15px;
+        }
     </style>
 </head>
 
@@ -44,19 +71,45 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <a href="https://wa.me/918864976368" class="cta-button" target="_blank">Book a Session</a>
+        <a href="https://wa.me/918864976368" class="cta-button" target="_blank">
+            Book a Session
+        </a>
     </div>
 </nav>
 
-<!-- HERO -->
+<!-- HERO SECTION -->
 <section class="hero" id="home">
     <div class="container hero-content">
-        <h1>Find Your Inner Balance</h1>
-        <p>Online & Offline Yoga Classes for Fitness, Weight Loss & Mental Peace</p>
+        <div class="hero-text">
+            <h1 class="hero-title">
+                Find Your Inner <span class="gradient-text">Balance</span>
+            </h1>
 
-        <div class="hero-buttons">
-            <a href="#classes" class="primary-button">Explore Classes</a>
-            <a href="https://wa.me/918864976368" class="secondary-button" target="_blank">Book on WhatsApp</a>
+            <p class="hero-subtitle">
+                Transform your mind, body, and spirit through the ancient practice of yoga.
+                Join our online & offline classes and begin your wellness journey today.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#classes" class="primary-button">Explore Classes</a>
+                <a href="https://wa.me/918864976368" class="secondary-button" target="_blank">
+                    Book on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="floating-card">
+                🌸 500+ Happy Students
+            </div>
+
+            <div class="floating-card">
+                ⭐ 10+ Years Experience
+            </div>
+
+            <div class="floating-card">
+                🏆 Certified Yoga Trainer
+            </div>
         </div>
     </div>
 </section>
@@ -102,7 +155,9 @@
             <div class="class-card">Personal Online Training</div>
         </div>
 
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">Book Free Trial</a>
+        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
+            Book Free Trial
+        </a>
     </div>
 </section>
 
@@ -166,7 +221,9 @@
         <p>📧 namaste@yoginiaru.com</p>
         <p>📍 Jagadhri, Haryana</p>
 
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">Chat on WhatsApp</a>
+        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
+            Chat on WhatsApp
+        </a>
     </div>
 </section>
 
