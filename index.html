@@ -3,15 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Yogini Aru - Traditional Yoga & Wellness</title>
+    <title>Yogini Aru - Yoga & Wellness</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yoga classes in Jagadhri. Online & offline yoga for weight loss, stress, fitness and meditation.">
+    <meta name="description" content="Online and offline yoga classes for fitness, weight loss, stress relief and meditation.">
 
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Hero Background */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg,#d4fcf0,#e0f7fa,#f1f8e9,#fffde7);
+        }
+        .hero-content { max-width: 600px; }
+    </style>
 </head>
 
 <body>
@@ -20,8 +31,7 @@
 <nav class="navbar" id="navbar">
     <div class="container nav-container">
         <div class="logo">
-            <span class="logo-icon">🧘</span>
-            <span class="logo-text">Yogini Aru</span>
+            <span>🧘 Yogini Aru</span>
         </div>
 
         <ul class="nav-links">
@@ -34,23 +44,19 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <a href="https://wa.me/918864976368" class="cta-button" target="_blank">
-            Book a Session
-        </a>
+        <a href="https://wa.me/918864976368" class="cta-button" target="_blank">Book a Session</a>
     </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero" id="home">
     <div class="container hero-content">
-        <div class="hero-text">
-            <h1>Find Your Inner <span class="gradient-text">Balance</span></h1>
-            <p>Online & Offline Yoga Classes for Fitness, Weight Loss and Mental Peace</p>
+        <h1>Find Your Inner Balance</h1>
+        <p>Online & Offline Yoga Classes for Fitness, Weight Loss & Mental Peace</p>
 
-            <div class="hero-buttons">
-                <a href="#classes" class="primary-button">Explore Classes</a>
-                <a href="https://wa.me/918864976368" class="secondary-button" target="_blank">Book on WhatsApp</a>
-            </div>
+        <div class="hero-buttons">
+            <a href="#classes" class="primary-button">Explore Classes</a>
+            <a href="https://wa.me/918864976368" class="secondary-button" target="_blank">Book on WhatsApp</a>
         </div>
     </div>
 </section>
@@ -58,16 +64,11 @@
 <!-- ABOUT -->
 <section class="about" id="about">
     <div class="container">
-        <div class="section-header">
-            <h2>About Yogini Aru</h2>
-        </div>
-
+        <h2>About Yogini Aru</h2>
         <div class="about-content">
             <img src="photo5.jpg" class="about-image">
-
             <div>
-                <h3>Certified Yoga Trainer</h3>
-                <p>10+ years of experience in traditional yoga, therapy yoga, meditation and pranayama.</p>
+                <p>Certified yoga trainer with 10+ years experience in traditional yoga, therapy yoga, meditation and pranayama.</p>
                 <p>Helping students improve health, reduce stress and live a balanced life.</p>
             </div>
         </div>
@@ -77,11 +78,9 @@
 <!-- CLASSES -->
 <section class="classes" id="classes">
     <div class="container">
-        <div class="section-header">
-            <h2>Yoga Class Schedule</h2>
-        </div>
+        <h2>Yoga Class Schedule</h2>
 
-        <h3>🌅 Morning Batches (7 AM – 11 AM)</h3>
+        <h3>🌅 Morning (7–11 AM)</h3>
         <div class="classes-grid">
             <div class="class-card">7–8 AM : Hatha Yoga</div>
             <div class="class-card">8–9 AM : Vinyasa Flow</div>
@@ -89,40 +88,35 @@
             <div class="class-card">10–11 AM : Therapy Yoga</div>
         </div>
 
-        <h3>🌇 Evening Batches</h3>
+        <h3>🌇 Evening</h3>
         <div class="classes-grid">
             <div class="class-card">5:30–6:30 PM : Hatha + Pranayama</div>
             <div class="class-card">6:30–7:30 PM : Weight Loss Yoga</div>
             <div class="class-card">7:30–8:30 PM : Meditation</div>
         </div>
 
-        <h3>💻 Online Classes (Zoom)</h3>
+        <h3>💻 Online Classes</h3>
         <div class="classes-grid">
             <div class="class-card">6–7 AM : Online Morning Batch</div>
             <div class="class-card">7–8 PM : Online Evening Batch</div>
             <div class="class-card">Personal Online Training</div>
         </div>
 
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
-            Book Free Trial
-        </a>
+        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">Book Free Trial</a>
     </div>
 </section>
 
 <!-- BENEFITS -->
 <section class="benefits" id="benefits">
     <div class="container">
-        <div class="section-header">
-            <h2>Benefits of Yoga</h2>
-        </div>
-
+        <h2>Benefits of Yoga</h2>
         <div class="benefits-grid">
-            <div class="benefit-card">🧘 Improves flexibility & posture</div>
-            <div class="benefit-card">💪 Builds strength & stamina</div>
-            <div class="benefit-card">🩺 Controls BP, diabetes & thyroid</div>
-            <div class="benefit-card">😌 Reduces stress & anxiety</div>
-            <div class="benefit-card">🧠 Improves focus & sleep</div>
-            <div class="benefit-card">🔥 Helps in weight loss</div>
+            <div>🧘 Improves flexibility</div>
+            <div>💪 Builds strength</div>
+            <div>😌 Reduces stress</div>
+            <div>🔥 Weight loss</div>
+            <div>🧠 Better sleep</div>
+            <div>❤️ Heart health</div>
         </div>
     </div>
 </section>
@@ -130,27 +124,25 @@
 <!-- TESTIMONIALS -->
 <section class="testimonials" id="testimonials">
     <div class="container">
-        <div class="section-header">
-            <h2>Student Testimonials</h2>
-        </div>
+        <h2>Student Testimonials</h2>
 
         <div class="testimonials-grid">
             <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐  
-                <p>"Best yoga teacher in Jagadhri. My back pain is gone."</p>
-                <h4>Priya Sharma</h4>
+                ⭐⭐⭐⭐⭐
+                <p>Best yoga teacher in Jagadhri. My back pain is gone.</p>
+                <b>Priya Sharma</b>
             </div>
 
             <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐  
-                <p>"Lost 12 kg in 6 months with her yoga guidance."</p>
-                <h4>Anjali Gupta</h4>
+                ⭐⭐⭐⭐⭐
+                <p>I lost 12 kg in 6 months with her yoga guidance.</p>
+                <b>Anjali Gupta</b>
             </div>
 
             <div class="testimonial-card">
-                ⭐⭐⭐⭐⭐  
-                <p>"Very peaceful meditation classes. Highly recommended."</p>
-                <h4>Rahul Verma</h4>
+                ⭐⭐⭐⭐⭐
+                <p>Very peaceful meditation classes.</p>
+                <b>Rahul Verma</b>
             </div>
         </div>
     </div>
@@ -158,13 +150,11 @@
 
 <!-- GALLERY -->
 <section class="gallery" id="gallery">
-    <div class="container">
-        <div class="gallery-grid">
-            <img src="photo1.jpg">
-            <img src="photo2.jpg">
-            <img src="photo3.jpg">
-            <img src="photo4.jpg">
-        </div>
+    <div class="container gallery-grid">
+        <img src="photo1.jpg">
+        <img src="photo2.jpg">
+        <img src="photo3.jpg">
+        <img src="photo4.jpg">
     </div>
 </section>
 
@@ -174,11 +164,9 @@
         <h2>Contact</h2>
         <p>📞 +91 88649 76368</p>
         <p>📧 namaste@yoginiaru.com</p>
-        <p>📍 Sector 18, Jagadhri, Haryana</p>
+        <p>📍 Jagadhri, Haryana</p>
 
-        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">
-            Chat on WhatsApp
-        </a>
+        <a href="https://wa.me/918864976368" class="primary-button" target="_blank">Chat on WhatsApp</a>
     </div>
 </section>
 
